@@ -7,7 +7,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    <div className="bg-success">
+    <div className="bg-primary">
        <div className='container-fluid row'>
             <div className="col-md-4 p-4">
                 <h3 className='text-light'><FontAwesomeIcon icon={faStackOverflow} style={{color: "#ffffff",}} /> Project Fair</h3>
@@ -33,7 +33,7 @@ function Footer() {
                 <h3 className='text-light'>Contact Us</h3>
                 <div className='d-flex'>
                     <input className='form-control' placeholder='Email ID' type="text" name="" id="" />
-                    <button className='bg-warning border border-warning text-light rounded ms-4 p-2 shadow'>Subscribe</button>
+                    <button className='btn btn-warning border border-warning text-light rounded ms-4 p-2 shadow'>Subscribe</button>
                 </div>
                 <div className='d-flex mt-4 justify-content-around'>
                 <FontAwesomeIcon size='2xl' icon={faFacebookF} style={{color: "#ffffff",}} />
